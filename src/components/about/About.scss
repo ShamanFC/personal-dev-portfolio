@@ -1,0 +1,32 @@
+.content {
+    border: 1px solid white;
+    width: 46.1vw;
+    position: absolute;
+    top: 50px;
+    left: -3px;
+    height: 213px;
+    z-index: -1;
+    margin: none;
+}
+
+.aboutTitle {
+    margin-top: none;
+    font-weight: bold;
+    background-color: white;
+    color: #1b1b1b;
+    width: 330px;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left: -50px;
+    -webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+}
+
+.aboutText {
+     -webkit-transform: skew(45deg);
+  -moz-transform: skew(45deg);
+  -o-transform: skew(45deg);
+}

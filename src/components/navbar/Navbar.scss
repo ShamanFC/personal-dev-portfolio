@@ -1,0 +1,44 @@
+.navBar {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    width: 340px;
+}
+
+.navItem {
+    width: 150px;
+    height: 75px;
+    border: 1px solid white;
+    text-align: center;
+    padding: none;
+    margin: none;
+    margin-bottom: -30px;
+    margin-left: 35px;
+    padding-top: 68px;
+    padding-bottom: 6px;
+       transform: rotateY(0deg) rotate(-45deg);
+        transition: 0.1s;
+
+        z-index: 1;
+
+
+    &:hover {
+        background-color: white;
+        color: #1b1b1b;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    &.active {
+        background-color: white;
+        color: #1b1b1b;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    &.even {
+        margin-left: 155px;
+    }
+}
